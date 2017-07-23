@@ -1,11 +1,13 @@
 	<!DOCTYPE html>
 	<html>
 	<head>
+	<meta charset="utf-8">
 		<title></title>
 		<style type="text/css">
 			header{
 				height: 200px;
 				background-color: red;
+				display: block;	
 			}
 			footer{
 				height: 400px
@@ -19,26 +21,86 @@
 				height: 600px;
 				background-size:cover
 			}
-			
+			#par{
+ 			   color: white;
+    			float: right;
+			}
+
+			#header{
+				text-align: center;
+
+			}
+			#top-section {
+				padding: 40px;
+			}
+			#footer-title {
+				text-align: center;
+ 			    padding: 30px;
+    			font-size: 4em;
+			}
+			#list{
+				font-size: 1.4em;
+    			margin-left: 500px;
+			}
 			img {
 				display: block;		  
 				margin: auto;
 				width: 50%;
 				padding: 20px;
 			}
+			body {
+				margin:0px;
+			}
+
+			h1{
+				margin: 0px;
+			}
+			h2 {
+				text-align: right;	
+			}
+			h3 {
+				margin: 0px;
+			}
+			p {
+				margin: 0px;
+				font-size: 1.3em;
+				text-align: right;
+			}
+		
 		</style>
 	</head>
 
 	<body>
-		<header></header>
+		<header id='header'>
+		<div id='top-section'>
+			<h1>Las Locuras del Emperador !</h1>
+			<h3>Nuestra primera página web</h3>
+		</div>
+		</header>
 
 		<div id='mid-section'>
 			<img src="cuzco.jpg" />
 		</div>
 
-		<div id='bottom-section'></div>
+		<div id='bottom-section'>
+			<div id="par">
+				<h2>Cuzco!!</h2>
+				<p>Ohh,sí...el veneno...</p>
+				<p>El veneno para Cuzco...</p>
+				<p>El veneno que usaremos para matar a Cuzco</p>
+				<p>claro...</p>
+				<p>Ese veneno</p>
+			</div>
+		</div>
 
-		<footer></footer>
+		<footer>
+			<div id='footer-title'>Precios</div>
+			<div id='list'>
+				$10.00 <br>
+				$21.00 <br>
+				$35.00 <br>
+			</div>			
+		</footer>
 	</body>
 	
 	</html>
